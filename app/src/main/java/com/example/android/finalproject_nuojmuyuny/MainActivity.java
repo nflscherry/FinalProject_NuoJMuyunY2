@@ -17,10 +17,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    public void signUp(View view){
+
+    public void signUp(View view) {
         signUp = findViewById(sign_up);
         Intent newIntent;
-        newIntent = new Intent(this,InformationActivity.class);
+        newIntent = new Intent(this, InformationActivity.class);
         startActivity(newIntent);
     }
 }
